@@ -26,35 +26,33 @@
 
 
 /* section 2 */
-#sec_2 .detail-box .list .tit2 {
-    position: relative;
-    left: -100%;
+#sec_2 .detail-box .list:nth-child(1) {
+    -webkit-transform: translateY(-30%);
+    transform: translateY(-30%);
     opacity: 0;
     -webkit-transition: all 1s 0ms ease-in;
     transition: all 1s 0ms ease-in;
 }
-#sec_2 .detail-box .list .tit7 {
-    opacity: 0;
-    -webkit-transition: all 1s 1500ms ease-in;
-    transition: all 1s 1500ms ease-in;
-}
-#sec_2 .detail-box .list:last-child {
-    position: relative;
-    right: -100%;
+#sec_2 .detail-box .list:nth-child(2) {
     opacity: 0;
     -webkit-transition: all 1s 500ms ease-in;
     transition: all 1s 500ms ease-in;
 }
+#sec_2 .detail-box .list:nth-child(3) {
+    opacity: 0;
+    -webkit-transition: all 1s 1500ms ease-in;
+    transition: all 1s 1500ms ease-in;
+}
 
-#sec_2.play .detail-box .list .tit2 {
-    left: 0;
+#sec_2.play .detail-box .list:nth-child(1) {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
     opacity: 1;
 }
-#sec_2.play .detail-box .list .tit7 {
+#sec_2.play .detail-box .list:nth-child(2) {
     opacity: 1;
 }
-#sec_2.play .detail-box .list:last-child {
-    right: 0;
+#sec_2.play .detail-box .list:nth-child(3) {
     opacity: 1;
 }
 
