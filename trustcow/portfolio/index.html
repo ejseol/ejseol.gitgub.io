@@ -1,17 +1,149 @@
 <!DOCTYPE html>
-<html lang="ko">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"> -->
-    <meta http-equiv="Cache-Control" content="max-age=0, s-maxage=31536000">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expire" content="0">
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>site</title>
-  </head>
-  <body>
-      test
-  </body>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+        <title>trusTCow</title>
+        <link type="text/css" rel="stylesheet" href="../css/reset.css" />
+        <link type="text/css" rel="stylesheet" href="../css/layout.css" />
+        <link type="text/css" rel="stylesheet" href="../css/content.css" />
+        <link type="text/css" rel="stylesheet" href="../css/media.css" />
+        <link type="text/css" rel="stylesheet" href="../css/animation.css" />
+        <script type="text/javascript" src="../js/jquery-1.12.4.js"></script>
+        <script type="text/javascript" src="../js/common.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="head-inner">
+                <div class="logo">
+                    <a href="/">
+                        trusTCow
+                    </a>
+                </div>
+                <div class="menu">
+                    <span class="normal">
+                        <a href="javascript:void(0);">HOME</a>
+                        <a href="javascript:void(0);">TEAM</a>
+                        <a href="javascript:void(0);">SKILL</a>
+                    </span>
+                    <span class="optional">
+                        <select name="" id="">
+                            <option value="">ENG</option>
+                            <!-- <option value="">KOR</option> -->
+                        </select>
+                    </span>
+                </div>
+                <div class="btn-side">SIDE</div>
+            </div>
+        </header>
+
+        <div class="wrapper">
+            <!-- HOME -->
+            <section id="sec_1">
+                <div class="sec-inner">
+                    <div class="video-box">
+                        <video width="100%" height="100%" autoplay muted loop class="on">
+                            <source src="../video/explosion.mp4" type="video/mp4" />
+                            해당 브라우저에는 지원되지 않습니다.
+                        </video>
+                    </div>
+                    <div class="title-box">
+                        <p class="tit1 wt-600 pc">THE CREATIVITY, Which Make Future to Today!</p>
+                        <p class="tit1 wt-600 mobile">THE CREATIVITY<br />Which Make Future to Today!</p>
+                        <p class="tit5">
+                            <span class="wt-400 f-cyan">Be Our Guest For The Best Qualities And Services.</span><br />
+                            <span class="wt-300">Don’t Hesitated ! Just Start Your Goal Right Now With Us!</span>
+                        </p>
+                    </div>
+
+                    <div class="ico-box">
+                        <span class="ico-mouse">SCROLL DOWN</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TEAM -->
+            <section id="sec_2">
+                <div class="sec-inner">
+                    <div class="sec-inner">
+                        <div class="detail-box">
+                            <div class="list">
+                                <p class="tit2">
+                                    <span class="wt-800 f-navy">Best Qualities And Services</span><br />
+                                    <span class="wt-300 f-gray">(blah blah blah blahblah blahblah blah)</span>
+                                </p>
+                                <p class="tit7 wt-400">texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext<br>texttexttexttexttexttexttexttexttexttexttexttexttexttext<br>texttexttexttexttexttexttexttexttexttexttexttext<br>texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext</p>
+                            </div>
+                            <div class="list">
+                                <img src="../images/bg/bg2.jpg" alt="Services" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SKILL -->
+            <section id="sec_3">
+                <div class="sec-inner">
+                    <div class="title-box t-center">
+                        <p class="tit6 wt-500">SOLUTION</p>
+                        <p class="tit3 wt-800">OUR SKILL</p>
+                    </div>
+                    <div class="cont-box">
+                        <div class="list">
+                            <p class="tit wt-800"><span class="f-navy">FRONTEND</span> DEV</p>
+                            <div class="desc wt-400">
+                                <p class="desc-txt">HTML, CSS, JavaScript, TypeScript, jQuery, Vue.js, Angular</p>
+                                <div class="logo-box">
+                                    <img src="../images/logo/fe_html.png" alt="html" class="logo" />
+                                    <img src="../images/logo/fe_javascript.png" alt="javascript" class="logo" />
+                                    <img src="../images/logo/fe_css.png" alt="css" class="logo" />
+                                    <img src="../images/logo/fe_jquery.png" alt="jquery" class="logo" />
+                                    <img src="../images/logo/fe_vue.png" alt="vue" class="logo" />
+                                    <img src="../images/logo/fe_angular.png" alt="angular" class="logo" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list">
+                            <p class="tit wt-800"><span class="f-navy">BACKEND</span> DEV</p>
+                            <div class="desc wt-400">
+                                <p>Java, SpringBoot, MySQL, AWS, Docker</p>
+                                <div class="logo-box">
+                                    <img src="../images/logo/be_java.png" alt="java" class="logo" />
+                                    <img src="../images/logo/be_spring.png" alt="spring boot" class="logo" />
+                                    <img src="../images/logo/be_mysql.png" alt="mysql" class="logo" />
+                                    <img src="../images/logo/be_aws.png" alt="aws" class="logo" />
+                                    <img src="../images/logo/be_docker.png" alt="docker" class="logo" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list">
+                            <p class="tit wt-800"><span class="f-navy">ANDROID</span> DEV</p>
+                            <div class="desc wt-400">
+                                <p>Kotlin, Java</p>
+                                <div class="logo-box">
+                                    <img src="../images/logo/aos_kotlin.png" alt="kotlin" class="logo" />
+                                    <img src="../images/logo/be_java.png" alt="java" class="logo" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- BOTTOM -->
+            <section id="sec_4">
+                <div class="sec-inner">
+                    <div class="cont-box">
+                        <p class="tit wt-600 pc">Make your <span class="f-cyan">successful business</span>,<br>use our special customized services.</p>
+                        <p class="tit wt-600 mobile">Make your <span class="f-cyan">successful business</span>,<br>use our special customized services.</p>
+                        <p class="tit5">
+                            <i class="icon fal fa-envelope"></i>
+                            <span class="wt-800"><a href="mailto:hscmpy@gmail.com">hscmpy@gmail.com</a></span>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
 </html>
