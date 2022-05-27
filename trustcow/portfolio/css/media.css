@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* @media (min-width: 1361px) {
+    #sec_6 .sec-inner:nth-child(2) .board .tit:hover {
+        color: rgba(196, 196, 196, 0.6);
+    }
+} */
+
+@media (min-width: 769px) {
+    .pc {
+        display: block;
+    }
+    .mobile {
+        display: none;
+    }
+}
