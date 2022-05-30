@@ -7,6 +7,16 @@ $(document).ready(function() {
 		$(this).siblings('li').removeClass('on');
 		$(this).addClass('on');
 
+		var idx = $(this).index() + 1;
+		var size = $('#sec_' + idx).offset().top - 72;
+
+		$("html, body").stop().animate({
+			scrollTop : size
+		}, {
+			duration : 500
+		});
+
+
 		if ($('#side-menu').hasClass('active')) {
 			$('#side-menu').removeClass('active');
 		} else {
